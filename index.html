@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -47,6 +48,15 @@
             A denial, a denial, a denial, a denial<br>
             A denial</p>
         </div>
+
+        <div class="formContainer">
+            <form onsubmit="takeInput(event)">
+            <input type="text" id="name" placeholder="Write you name">
+            <input type="text" id="text" placeholder="Did you liked this song (yes/no)">
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        
     </div>
 
 </body>
