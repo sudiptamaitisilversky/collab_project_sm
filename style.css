@@ -7,6 +7,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    min-height: 100vh;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
     min-height: 100vh;
 }
 .content {
@@ -17,6 +26,17 @@
     border-radius: 8px;
     max-width: 600px;
 }
+.btn {
+  display: inline-block;       /* Needed for padding */
+  padding: 10px 20px;
+  background-color: #024338;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 img {
     max-width: 100%;
     border-radius: 6px;
