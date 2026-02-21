@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="container">
-        
-        <a href="index1.html" class="btn">Song 2</a>
         <div class="content">
-            <p>Nirvana Album cover</p>
+            <h1>Smells Like Teen Spirit</h1>
+
+            <div class="nameandmode">
+                <p>Nirvana Album cover</p> <button onclick="darkmodefunction()" class="btnm">Dark mode</button>
+            </div>
+            
             <img src="./assets/pic1.jpg" alt="cover picture">
             
             <p>[Verse 1]<br>
@@ -47,6 +50,8 @@
             A denial</p>
         </div>
 
+        <a href="index1.html" class="btn">Song 2</a>
+
         <div class="formContainer">
             <form onsubmit="takeInput(event)">
             <input type="text" id="name" placeholder="Write you name">
@@ -56,6 +61,6 @@
         </div>
         
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>

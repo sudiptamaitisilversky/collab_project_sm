@@ -15,3 +15,7 @@ function takeInput(event){
     document.getElementById('text').value = '';
 
 }
+
+function darkmodefunction() {
+    document.body.classList.toggle("darkmode");
+}

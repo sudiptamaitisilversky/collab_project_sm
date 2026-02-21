@@ -1,4 +1,8 @@
 
+body {
+    background: pink;
+    color: rgb(0, 0, 0);
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -16,8 +20,8 @@
     min-height: 100vh;
 }
 .content {
-    background-color: cornflowerblue;
-    color: black;
+    /* background-color: cornflowerblue; */
+    /* color: black; */
     font-weight: bold;
     padding: 20px;
     border-radius: 8px;
@@ -35,7 +39,7 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 6px;
 }
 .formContainer {
@@ -48,4 +52,24 @@ img {
 input{
     background-color: azure;
     color:black;
+}
+
+/* darkmode */
+.darkmode {
+    background-color:black;
+    color: #fff;
+}
+
+/* name and mode */
+.nameandmode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.btnm {
+    margin-right: 20%;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px ;
 }
